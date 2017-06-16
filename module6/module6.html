@@ -1,0 +1,93 @@
+<!DOCTYPE HTML>
+<HTML>
+  <head>
+    <title>
+      Basic HTML form
+    </title>
+    <style>
+label for="temp"
+{
+  width:350px;
+  text-align:right;
+}
+    </style>
+  </head>
+  <body>
+    <form method="post" action="#">
+      <table>
+        <tr>
+          <td>Search:</td>
+          <td><input type="search" name="search" autofocus list="greatDirectors">
+            <datalist id="greatDirectors">
+              <option value="David Fincher">
+              <option value="Steven spielberg">
+              <option value="Christopher Nolan">
+              <option value="Martin Scorcesse">
+              <option value="Alejandro G. Innaruto" selected>
+              <option value="Damien Chazelle">
+              <option value="David O. Russel">
+            </datalist>
+          </td>
+        </tr>
+        <tr>
+          <td>Email Input:</td>
+          <td><input type="email" name="email"></td>
+        </tr>
+        <tr>
+          <td>URL Input:</td>
+          <td><input type="url" name="url">
+        </tr>
+        <tr>
+          <td>Tel Input:*</td>
+          <td><input type="tel"  placeholder="123-456-7890"  name="tel" required></td>
+        </tr>
+        <tr>
+          <td>Text Input:</td>
+          <td><input type="text" placeholder="This is the text field"></td>
+        </tr>
+        <tr>
+          <td>Number Input:</td>
+          <td><input type="number" value="0.0"></td>
+        </tr>
+        <tr>
+          <td>Number only input:</td>
+          <td><input type="number"></td>
+        </tr>
+        <tr>
+          <td>Range Input:</td>
+          <td><input type="range" value="15" min="2"></td>
+        </tr>
+        <tr>
+          <td>Date Input:</td>
+          <td><input type="Date" value="2007-07-07" readonly></td>
+        </tr>
+        <tr>
+          <td>Month Input:</td>
+          <td><input type="month"></td>
+        </tr>
+        <tr>
+          <td>Week Input:</td>
+          <td><input type="week"></td>
+        </tr>
+        <tr>
+          <td>Time Input:</td>
+          <td><input type="time"></td>
+        </tr>
+        <tr>
+          <td>Datetime Input:</td>
+          <td><input type="datetime-local"></td>
+        </tr>
+        <tr>
+          <td>Color Input:</td>
+          <td><input type="color" value="#228B22"></td>
+        </tr>
+        <tr>
+          <td colspan="2"><input type="submit" value="submit"></td>
+        </tr>
+
+      </table>
+    </form>
+    <p>* Required fields</p>
+  </body>
+</HTML>
+
